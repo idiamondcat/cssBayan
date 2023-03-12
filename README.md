@@ -1,1 +1,1 @@
-# https://idiamondcat.github.io/cssBayan/
+# https://idiamondcat.github.io/cssBayan/cssBayan/
