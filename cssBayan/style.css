@@ -72,6 +72,7 @@ input[type="radio"] {
 }
 .meme-place:active > img {
     opacity: 0.5;
+    transition: opacity 0.3s ease-out;
 }
 .meme-pic {
     box-shadow: 0.8125em 0.8125em 1.0625em -0.75em rgba(54,62,83,0.55);
