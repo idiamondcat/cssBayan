@@ -38,7 +38,9 @@ img {
     box-sizing: border-box;
 }
 .meme-title {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0.769em 1.5em 0.769em 0;
     font-weight: 600;
@@ -48,10 +50,7 @@ img {
 .icon-round {
     width: 1.15em;
     height: 1.15em;
-    position: absolute;
-    right: 0.25em;
-    top: 50%;
-    transform: translate(0, -50%);
+    margin-left: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
