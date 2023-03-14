@@ -36,7 +36,6 @@ img {
 .meme-header {
     margin: 0;
     box-sizing: border-box;
-    z-index: 12;
 }
 .meme-title {
     position: relative;
@@ -92,7 +91,6 @@ input[type="radio"] {
     padding: 1.25em 0;
     opacity: 1;
     transition: all 0.3s ease-in-out;
-    z-index: 11;
 }
 .material-symbols-rounded {
     color: #efefef;
@@ -219,14 +217,12 @@ input[type="radio"] {
             padding: 1.25em 0;
             opacity: 1;
             transition: all 0.3s ease-in-out;
-            z-index: 11;
         }
         .meme-item:hover > input[type="radio"] ~ .meme-header .meme-place {
             height: 50vh;
             padding: 1.25em 0;
             opacity: 1;
             transition: all 0.3s ease-in-out;
-            z-index: 11;
             cursor: pointer;
         }
         .meme-item:hover > input[type="radio"] ~ .meme-header .meme-title .icon-round > .meme-icon__open {
@@ -242,7 +238,6 @@ input[type="radio"] {
             padding: 0;
             opacity: 0;
             transition: all 0.3s ease-in-out;
-            z-index: 1;
         }
         .meme-item:hover > input[type="radio"] ~ .meme-header .meme-title .icon-round > .meme-icon__open {
             display: inline;
